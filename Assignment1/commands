@@ -1,0 +1,10 @@
+git config --global CandyPanda-LS
+git config --global user.email it19132310@my.sliit.lkgit config --global user.email it19132310@my.sliit.lk
+python -m venv assignment01
+conda create -n py36 python=3.6
+source assignment01/bin/activate
+pip install ipykernel
+python -m ipykernel install --name=assignment01 --user
+jupyter kernelspec list
+jupyter kernelspec uninstall <name>
+
